@@ -1,0 +1,14 @@
+# hyp.yaml
+
+# Augmentation settings for YOLOv8 training
+flipud: 0.0            # Probability of vertical flip
+fliplr: 0.5            # Probability of horizontal flip
+rotate: 30.0           # Maximum rotation in degrees
+scale: 0.5             # Scaling factor range (e.g., 0.5 means 50% zoom)
+translate: 0.1         # Translation factor range (shifting image in x or y)
+shear: 0.0             # Shearing range (distortion along the x or y axis)
+mosaic: 1.0            # Enable Mosaic augmentation (1.0 = enabled)
+mixup: 0.0             # Mixup ratio for blending images
+hsv_h: 0.015           # Random Hue shift
+hsv_s: 0.7             # Random Saturation shift
+hsv_v: 0.4             # Random Value shift
